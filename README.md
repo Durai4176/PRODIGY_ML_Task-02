@@ -1,70 +1,91 @@
-# PRODIGY_ML_Task-02
-## Customer Segmentation using K-Means Clustering
+# 📊 Internship Task 2 – Streamlit Clustering App
 
-### Project Overview
-This project is part of my Machine Learning Internship at Prodigy InfoTech.
-The objective of this task is to perform customer segmentation using the K-Means clustering algorithm
-and present the results through a simple Streamlit web application.
-
-Customer segmentation helps businesses understand customer behavior by grouping customers with similar characteristics.
+## 📌 Project Overview
+This project is a Streamlit-based web application developed as part of an internship task.  
+The application uses a dataset whose file path is directly specified inside the Python code.  
+It applies the **K-Means clustering algorithm** to segment customers and visually display  
+different customer groups based on their purchasing behavior.
 
 ---
 
-### Objective
-- Perform customer segmentation using K-Means Clustering
-- Visualize customer groups in a Streamlit web app
-- Understand patterns in customer purchasing behavior
+## 🛠️ Technologies Used
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
 
 ---
 
-### Dataset
-- Dataset is loaded using a fixed file path inside the code
-- Contains numerical customer-related features
-- Only numerical columns are used for clustering
+## 📂 Project Structure
+task_2/
+│
+├── app.py
+├── README.md
+└── dataset.csv
 
 ---
 
-### Technologies Used
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+## 📥 Dataset Information
+- The dataset path is **hardcoded inside the `app.py` file**
+- No dataset upload option is provided in the UI
+- Dataset loads automatically when the application starts
+- Dataset contains numerical customer-related data
+- Used for customer segmentation using K-Means clustering
+
+Example dataset path used in code:
+C:/Users/kumar/OneDrive/Desktop/streamlit/internship/task_2/dataset.csv
 
 ---
 
-### Workflow
-1. Load dataset from CSV file path
-2. Display dataset in Streamlit
-3. Select numerical features
-4. Handle missing values
-5. Apply K-Means clustering
-6. Choose number of clusters (K)
-7. Assign cluster labels
-8. Visualize clusters using scatter plot
+## 🚀 Features
+- Automatic dataset loading from local file path  
+- K-Means clustering implementation  
+- User-defined number of clusters (K)  
+- Cluster labels added to the dataset  
+- Visual representation of clusters  
+- Simple and interactive Streamlit interface  
 
 ---
 
-### How to Run
-1. Clone the repository
-   git clone https://github.com/Durai4176/PRODIGY_ML_Task-02.git
+## ⚙️ Installation Steps
 
-3. Install required libraries
-   pip install -r requirements.txt
-
-4. Run the Streamlit app
-   streamlit run app.py
+### Step 1: Install Python
+Download Python from:  
+https://www.python.org/
 
 ---
 
-### Output
-- Clustered customer data
-- Visual representation of customer segments
-- Clear grouping of customers based on behavior
+### Step 2: Install Required Libraries
+pip install streamlit pandas numpy scikit-learn matplotlib
 
 ---
 
-### Conclusion
-This project demonstrates the use of unsupervised learning techniques like K-Means
-to analyze customer data and extract meaningful insights.
+### Step 3: Run the Application
+Navigate to the project folder and run:
+streamlit run app.py
+
+---
+
+## ❌ Common Error and Solution
+
+Error:  
+ValueError: Input contains NaN values  
+
+Solution:  
+Ensure missing values are handled before applying K-Means clustering.
+
+---
+
+## 🧾 Conclusion
+This project demonstrates a basic **unsupervised machine learning** system using Streamlit,  
+where customer data is grouped into meaningful clusters using the **K-Means algorithm**.  
+It is suitable for internship and academic project submissions.
+
+---
+
+## 👤 Author
+Name: DURAIMURUGAN   
+Project Type: Internship Task – Machine Learning  
+Framework: Streamlit  
