@@ -48,12 +48,12 @@ Customer segmentation helps businesses understand customer behavior by grouping 
 
 ### How to Run
 1. Clone the repository
-   git clone https://github.com/your-username/PRODIGY_ML_Task-02.git
+   git clone https://github.com/Durai4176/PRODIGY_ML_Task-02.git
 
-2. Install required libraries
+3. Install required libraries
    pip install -r requirements.txt
 
-3. Run the Streamlit app
+4. Run the Streamlit app
    streamlit run app.py
 
 ---
